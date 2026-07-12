@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import FormAction from './components/FormAction/FormAction'
+import ControlledForm from './components/ControlledForm/ControlledForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
       <h1>Explore React Form</h1>
       {/* <SimpleForm></SimpleForm> */}
-      <FormAction></FormAction>
+      {/* <FormAction></FormAction> */}
+      <ControlledForm></ControlledForm>
     </>
   )
 }
