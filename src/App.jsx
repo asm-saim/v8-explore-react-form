@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import SimpleForm from './components/SimpleForm/SimpleForm'
+import FormAction from './components/FormAction/FormAction'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       <h1>Explore React Form</h1>
-      <SimpleForm></SimpleForm>
+      {/* <SimpleForm></SimpleForm> */}
+      <FormAction></FormAction>
     </>
   )
 }
