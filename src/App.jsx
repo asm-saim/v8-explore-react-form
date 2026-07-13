@@ -8,6 +8,7 @@ import FormAction from './components/FormAction/FormAction'
 import ControlledForm from './components/ControlledForm/ControlledForm'
 import UncontrolledForm from './components/UncontrolledForm/UncontrolledForm'
 import HookForm from './components/HookForm/HookForm'
+import ProductManagement from './components/ProductManagement/ProductManagement'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
       {/* <FormAction></FormAction> */}
       {/* <ControlledForm></ControlledForm> */}
       {/* <UncontrolledForm></UncontrolledForm> */}
-      <HookForm></HookForm>
+      {/* <HookForm></HookForm> */}
+      <ProductManagement></ProductManagement>
     </>
   )
 }

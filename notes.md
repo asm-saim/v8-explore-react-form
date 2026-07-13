@@ -8,3 +8,5 @@ form action={handleForm} , handleForm(formData) console.log(fromData.get("input 
 ## handle multiple controlled input in a single handler.
 
 ## unControlledForm : using useRef(), submit er age manupulate kora jai na. 
+
+# controlled frm using custom hook.
