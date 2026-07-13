@@ -13,6 +13,8 @@ const ProductForm = ({ handleAddProducts }) => {
         const addProduct = { name, price, quantity }
         // console.log(addProduct)
         handleAddProducts(addProduct)
+
+        // validation
     }
 
     return (
