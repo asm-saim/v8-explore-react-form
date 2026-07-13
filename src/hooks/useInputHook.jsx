@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-const inputField = () => {
-    const [inputField, setInputField] = useState('')
+const useInputHook = (defaultValue) => {
+    const [inputField, setInputField] = useState(defaultValue)
 
     const handleInputField = (e) => {
         setInputField(e.target.value)
@@ -9,4 +9,4 @@ const inputField = () => {
     return [inputField, handleInputField]
 
 }
-export default inputField
+export default useInputHook;
