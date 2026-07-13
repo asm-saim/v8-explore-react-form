@@ -1,0 +1,11 @@
+.family div{
+    border:2px solid cyan;
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}

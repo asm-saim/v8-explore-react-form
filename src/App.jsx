@@ -9,6 +9,7 @@ import ControlledForm from './components/ControlledForm/ControlledForm'
 import UncontrolledForm from './components/UncontrolledForm/UncontrolledForm'
 import HookForm from './components/HookForm/HookForm'
 import ProductManagement from './components/ProductManagement/ProductManagement'
+import FamilyTree from './components/FamilyTree/FamilyTree'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       {/* <ControlledForm></ControlledForm> */}
       {/* <UncontrolledForm></UncontrolledForm> */}
       {/* <HookForm></HookForm> */}
-      <ProductManagement></ProductManagement>
+      {/* <ProductManagement></ProductManagement> */}
+      <FamilyTree></FamilyTree>
     </>
   )
 }
