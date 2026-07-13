@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductForm = () => {
+const ProductForm = ({ handleAddProducts }) => {
 
     const handleProduct = (e) => {
         e.preventDefault();
@@ -11,7 +11,8 @@ const ProductForm = () => {
 
         //store the value in an object
         const addProduct = { name, price, quantity }
-        console.log(addProduct)
+        // console.log(addProduct)
+        handleAddProducts(addProduct)
     }
 
     return (

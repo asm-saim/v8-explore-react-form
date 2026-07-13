@@ -11,7 +11,6 @@ import HookForm from './components/HookForm/HookForm'
 import ProductManagement from './components/ProductManagement/ProductManagement'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
