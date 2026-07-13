@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Friend = () => {
+const Friend = ({asset}) => {
     return (
         <div>
             <h3>Friend</h3>
+            <p>Asset: {asset}</p>
         </div>
     );
 };
 
-export default Friend;<h3>Friend</h3>
+export default Friend;

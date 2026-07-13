@@ -4,11 +4,11 @@ import "./FamilyTree.css"
 
 const FamilyTree = () => {
 
-    const asset = "Diamond"
+    const asset = "Diamond";
     return (
         <div className='family'>
             <h2>Family Tree</h2>
-            <Grandpa></Grandpa>
+            <Grandpa asset={asset}></Grandpa>
         </div>
     );
 };

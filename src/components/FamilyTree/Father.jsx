@@ -4,12 +4,12 @@ import Brother from './Brother';
 import Sister from './Sister';
 import "./FamilyTree.css"
 
-const Father = () => {
+const Father = ({asset}) => {
     return (
         <div>
             <h3>Father</h3>
             <section className='flex'>
-                <Myself></Myself>
+                <Myself asset={asset}></Myself>
                 <Brother></Brother>
                 <Sister></Sister>
             </section>
